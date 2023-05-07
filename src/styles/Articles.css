@@ -33,7 +33,7 @@
 }
 
 .article-delete-btn {
-  background-color: #f44336;
+  background-color: #dc3545;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -53,7 +53,7 @@
 }
 
 .article-expand-btn {
-  background-color: #008CBA;
+  background-color: #0565cc;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -72,16 +72,18 @@
   font-style: normal;
   padding: 10px 20px;
   font-size: 16px;
-  color: #fff;
-  background-color: #71d2f8;
-  border: none;
+  color: #070000;
+  background-color: #71f8c4;
+  border: 1.5px solid #1e929b;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .article-add-btn:hover {
-  background-color: #3b5df5;
+  background-color: #1e929b;
+  color: #fff;
 }
 
 .article-meta {
@@ -95,7 +97,9 @@
 }
 
 .article-edit-btn {
-  background-color: #f44336;
+  background-color: #35dcc0;
+  border: 2px solid #1e9b71;
+  font-style: normal;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -104,8 +108,9 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .article-edit-btn:hover {
-  background-color: #ad3131;
+  background-color: #1e9b71;
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import axios from 'axios';
 import Articles from './views/Articles';
 import AddArticle from './views/AddArticle';
@@ -77,17 +77,3 @@ function App() {
 }
 
 export default App;
-
-
-
-/*
-axios.get('http://localhost:3000/articles')
-  .then(response => {
-    console.log(response.data);
-    // do something with the response data
-  })
-  .catch(error => {
-    console.log(error);
-    // handle the error
-  });
-*/

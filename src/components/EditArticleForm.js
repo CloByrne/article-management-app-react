@@ -36,34 +36,34 @@ function EditArticleForm({ articleId, onSave }) {
 
   return (
     <div className="edit-article-container">
-        <h2>Edit article</h2>
-        <form className="edit-article-form" onSubmit={handleSubmit}>
+      <h2>Edit article</h2>
+      <form className="edit-article-form" onSubmit={handleSubmit}>
         <div className="form-group">
-            <label htmlFor="title">Title:</label>
-            <input
-            id="title"
-            type="text"
-            value={title}
-            onChange={(event) => setTitle(event.target.value)}
-            />
+          <label htmlFor="title">Title:</label>
+          <input
+          id="title"
+          type="text"
+          value={title}
+          onChange={(event) => setTitle(event.target.value)}
+          />
         </div>
         <div className="form-group">
-            <label htmlFor="body">Body:</label>
-            <textarea
-            id="body"
-            value={body}
-            onChange={(event) => setBody(event.target.value)}
-            />
+          <label htmlFor="body">Body:</label>
+          <textarea
+          id="body"
+          value={body}
+          onChange={(event) => setBody(event.target.value)}
+          />
         </div>
         <div className="form-group">
-        <label htmlFor="published">Published:</label>
-            <input type="checkbox" id="published" checked={published} onChange={(event) => setPublished(event.target.checked)} />
-            </div>
+          <label htmlFor="published">Published:</label>
+          <input type="checkbox" id="published" checked={published} onChange={(event) => setPublished(event.target.checked)} />
+        </div>
         <button type="submit" className="edit-article-button">Save</button>
         <div>
-            <Link to="/">Go back to list articles page</Link>
+          <Link to="/">Go back to list articles page</Link>
         </div>
-        </form>
+      </form>
     </div>
   );
 }

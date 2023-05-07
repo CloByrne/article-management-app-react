@@ -24,7 +24,7 @@ function Articles({ articles, onDelete }) {
     <div className="articles-container">
       <header className="articles-header">
         <h2>Articles</h2>
-        <Link className="article-add-btn" to="/add-article">Add a new article</Link>
+        <Link className="article-add-btn" to="/add-article">Add New</Link>
         <div>
           <label>
             <input
